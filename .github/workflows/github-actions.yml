@@ -3,10 +3,10 @@ name: Docker Build and Push
 on:
   push:
     branches:
-      - main  # Altere para o branch que você deseja monitorar
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-push:
