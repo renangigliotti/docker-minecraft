@@ -16,7 +16,7 @@ RUN apt-get -y update && \
     apt-get -y install \
         software-properties-common \
         curl \
-        openjdk-18-jdk-headless
+        openjdk-21-jdk-headless
 
 # Load in all of our config files.
 ADD ./scripts/start /start
